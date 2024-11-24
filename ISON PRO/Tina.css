@@ -1,0 +1,44 @@
+body{
+        margin: 0;
+        font-family: sans-serif;
+        background: black;
+    }
+
+.header{
+    color:white;
+    background-color: darkgoldenrod;
+    padding:32px;
+    border-bottom: 4px solid red;
+    font-size: 10px;
+    text-align: center;
+}
+
+.gallery img{
+    width:100%;
+    max-width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit:cover;
+    box-sizing: border-box;
+}
+
+.gallery{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+footer{
+    background-color: grey;
+}
+.copyright{
+    background-color: white;
+    padding:10px;
+    text-align: center;
+}
+  
